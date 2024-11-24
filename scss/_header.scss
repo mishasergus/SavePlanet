@@ -1,0 +1,45 @@
+$text-color:#666363;
+$main-color:#69724F;
+@mixin text_lore($var1,$var2,$var3,$var4){
+    font-size: $var1;
+    font-weight: $var2;
+    line-height: $var3;
+    color: $var4;
+    font-family: "Lore", sans-serif;
+}
+@mixin text_inter($var1,$var2,$var3,$var4){
+    font-size: $var1;
+    font-weight: $var2;
+    line-height: $var3;
+    color: $var4;
+    font-family: "Inter", sans-serif;
+}
+header{
+    border: 1px solid $main-color;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-wrap{
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 10px 0;
+}
+.menu{
+    gap: 47px;
+}
+.menu a{
+    @include text_inter(16px,700,19px,$text-color);
+}
+.button{
+    width: 180px;
+    height: 70px;
+    background-color: $main-color;
+    border: none;
+}
+.btn{
+    @include text_inter(20px,700,24px,#F5F5F5);
+    padding: 23px 46px;
+    display: block;
+}

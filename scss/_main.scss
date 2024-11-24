@@ -1,0 +1,167 @@
+.sect1-wrap{
+    background-image: url(/images/Rectangle\ 8.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.left{
+    flex-direction: column;
+    text-align: center;
+}
+.h2{
+    margin-top: 70px;
+    margin-left: 100px;
+    @include text_lore(32px,700 ,48px ,$text-color );
+}
+.h1{
+    margin-top: 60px;
+    margin-left: 100px;
+    @include text_lore(54px,700 ,81px ,$text-color );
+    
+}
+.right{
+    margin-left: 92px;
+    flex-direction: column;
+}
+.title1{
+    margin-top: 70px;
+    width: 1098px;
+    height: 90px;
+    background-color: $main-color;
+    border: none;
+    @include text_inter(32px, 700, 38.73px, #F5F5F5);
+    padding: 25px 40px;
+    display: block;
+}
+.text1{
+    margin-top: 20px;
+    @include text_lore(16px, 400, 20.8px, $text-color);
+}
+.line{
+    border: 1px solid $main-color;
+    margin: 30px 0;
+    width: 200px;
+    margin-left: 318px;
+}
+.line1{
+    border: 1px solid $main-color;
+    margin: 30px 0;
+    width: 200px;
+}
+.text2{
+    @include text_lore(16px, 400, 20.8px, $text-color);
+}
+/*_____________________________________________________________sec2____________________________________*/
+.sect2-wrap{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+.animals{
+    display: flex;
+    gap: 54px;
+}
+.block-title{
+    @include text_lore(32px, 700, 48px, #000000);
+}
+.s-block-title{
+    @include text_lore(24px, 700, 36px, #000000);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.s-block-title1{
+    @include text_lore(24px, 700, 36px, #000000);
+    margin-bottom: 20px;
+}
+/*_____________________________________________________________sec3____________________________________*/
+.sect3-wrap{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 76px;
+}
+.money{
+    background-image: url(/images/Rectangle\ 13.png);
+    width: 100%;     /*я хз контейнер чогось не працює з ним*/
+    height: 408px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.enter1{
+    background-color: hsl(0, 0%, 100%);
+    height:50px;
+    color: var(--text-color);
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+    border: none;
+    padding: 13px 181px 13px 20px;
+}
+.enter1::placeholder{
+    @include text_lore(16px, 400, 24px,$text-color);
+}
+.enter2{
+    background-color: #FFFFFF;
+    height:50px;
+    color: var(--text-color);
+    display: block;
+    width: 300px;
+    border: none;
+    padding: 13px 181px 13px 20px;
+}
+.enter2::placeholder{
+    @include text_lore(16px, 400, 24px,$text-color);
+}
+.button1{
+    width: 150px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border: none;
+    margin-top: 20px;
+    @include text_lore(16px, 700, 24px,black);
+    padding: 8px 21px;
+    display: block;
+}
+/*_____________________________________________________________sec4____________________________________*/
+.sect4-wrap{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.im1{
+    margin-top: 30px;
+}
+/*_____________________________________________________________sec5____________________________________*/
+.green-title{
+    @include text_inter(32px, 700, 38.73px,#F5F5F5);
+    background-color: $main-color;
+    padding: 25px 700px;
+    white-space: nowrap;
+}
+.sect5-wrap{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+.animal2{
+    gap: 100px;
+}
+.block{
+    border: 1px solid $text-color;
+    width: 700px;
+    height: 360px;
+    padding: 20px;
+}
+.line2{
+    border: 1px solid $main-color;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+}

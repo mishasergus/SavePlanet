@@ -1,0 +1,36 @@
+@import './header', './main', './footer';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+$text-color:#666363;
+$main-color:#69724F;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: o auto;
+}
+.flex{
+    display: flex;
+}
+@mixin text_lore($var1,$var2,$var3,$var4){
+    font-size: $var1;
+    font-weight: $var2;
+    line-height: $var3;
+    color: $var4;
+    font-family: "Lore", sans-serif;
+}
+@mixin text_inter($var1,$var2,$var3,$var4){
+    font-size: $var1;
+    font-weight: $var2;
+    line-height: $var3;
+    color: $var4;
+    font-family: "Inter", sans-serif;
+}

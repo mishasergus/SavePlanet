@@ -1,0 +1,23 @@
+.platform{
+    border: 1px solid $main-color;
+    width: 219px;
+    height: 62px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.share{
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.green-line{
+    @include text_inter(16px, 400,19.36px,#F5F5F5);
+    background-color: $main-color;
+    padding: 15px 700px;
+    margin-top: 50px;
+    white-space: nowrap;
+}
